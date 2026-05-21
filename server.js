@@ -13,7 +13,7 @@ app.use(express.json());
 // ======================
 // DATABASE
 // ======================
-mongoose.connect("mongodb+srv://USERNAME:PASSWORD@cluster.mongodb.net/ecoshop")
+mongoose.connect(process.env.MONGO_URL)
 .then(() => console.log("✅ MongoDB Connected"))
 .catch(err => console.log("❌ DB Error:", err));
 
