@@ -125,7 +125,7 @@ app.delete("/products/delete/:id", async (req, res) => {
 
         await Product.findByIdAndDelete(req.params.id);
 
-        res.json({
+      res.status(201).json(product);({
             message: "🗑 Product Deleted"
         });
 
