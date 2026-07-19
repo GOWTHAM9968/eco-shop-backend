@@ -156,9 +156,4 @@ https://www.linkedin.com/in/mr-gowtham-573628372/
 GitHub:
 https://github.com/GOWTHAM9968
 
----
-
-## 📄 License
-
-This project is for educational and portfolio purposes.
 
